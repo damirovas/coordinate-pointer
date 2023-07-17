@@ -9,7 +9,7 @@ if(x>0 & y>0){
 }else if(x<0 & y<0){
     console.log(` x=${x} , y=${y} olduqda hemin noqte ucuncu rubde yerlesir`)
 }else if(x>0 & y<0){
-    console.log(` x=${x} , y=${y} olduqda hemin noqte birinci rubde yerlesir`)
+    console.log(` x=${x} , y=${y} olduqda hemin noqte dorduncu rubde yerlesir`)
 }else if(x>0 || x<0 & y===0){
     console.log(` x=${x} , y=${y} olduqda hemin noqte  absis oxu uzerinde yerlesir`)
 }else if(y>0 || y<0 & x===0 ){
